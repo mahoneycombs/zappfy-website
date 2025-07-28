@@ -1,15 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="Zappfy: Your Favorite Software Helper">
     <title id="title">Zappfy - Home</title>
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
+    <script src="webgl.js" type="module"></script>
   </head>
   <body>
     <header>
       <div id="logo">
-        <a href="/"><img src="2-color-logotype-B.svg"></a>
+        <a aria-label="link to return to home page" href="/"><img src="2-color-logotype-B.svg" alt="Zappfy logo with the Z as an hourglass"></a>
       </div>
       <div id="menu">
         <nav>
@@ -23,6 +25,9 @@
     </header>
     <main>
       <section class="hero-section">
+        <div id="webgl-container">
+          <canvas id="gl-container" width="640" height="480"></canvas>
+        </div>
         <h2 class="headline">Software on a budget.</h2>
         <div class="content">
           <p>

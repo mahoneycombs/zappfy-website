@@ -14,7 +14,6 @@ html body {
         "wdth" 100;
     font-size: 2.2em;
     text-align: center;
-    margin-bottom: 1em;
 }
 
 .subheading {
@@ -48,6 +47,10 @@ p {
     font-size: 1em;
     line-height: 1.6;
     color: #333;
+}
+
+a {
+    color: rgb(246, 166, 35);
 }
 
 header {
@@ -101,16 +104,17 @@ h3 {
     color: #4990e2;
 }
 
-main section {
-    padding: 3em 1.5em;
-}
 main section:nth-child(odd) {
-    background-color: #f0f2ef;
+    background-color: #4990e2;
+}
+
+main section:nth-child(odd) .headline {
+    color: white;
 }
 
 main section:nth-child(even) {
-    background-color: #4990e2;
-    color: white;
+    background-color: #f0f2ef;
+    color: #4990e2;
 }
 
 section {
@@ -120,11 +124,9 @@ section {
 #prefooter {
     background-color: #5c5346;
     color: white;
-    padding: 2em 1.5em;
 }
 
 #prefooter h4 {
-    margin-bottom: 1.5em;
     font-size: 1.3em;
     color: white;
 }
@@ -166,7 +168,7 @@ li {
 }
 
 li:before {
-    content: "->";
+    content: ":::";
     position: absolute;
     left: 0;
     color: #f6a623;
@@ -210,11 +212,27 @@ li:before {
     }
 }
 
-/* Animation Styles */
-
-/* Enhanced Layout Styles */
 .hero-section {
     padding: 2em 1em;
+}
+
+.hero-section p {
+    color: white;
+}
+
+.hero-section a {
+    text-decoration-thickness: 0.05em;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(246, 166, 35);
+    color: white;
+    font-weight: 600;
+}
+
+.hero-section a:hover {
+    text-decoration-thickness: 0.05em;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(246, 166, 35);
+    color: white;
 }
 
 .services-container {
@@ -251,7 +269,6 @@ li:before {
     width: 140px;
     height: 140px;
     margin: 0 auto;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -439,6 +456,12 @@ li:before {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.vision-list {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
 .vision-list li {
     margin-bottom: 1em;
     line-height: 1.5;
@@ -452,7 +475,7 @@ li:before {
 .cta-text {
     text-align: center;
     font-size: 1.2em;
-    margin: 2em auto;
+    margin: auto;
 }
 
 .button-link {

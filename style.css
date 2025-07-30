@@ -6,45 +6,45 @@ html body {
 }
 
 .headline {
-    font-family: 'Cabin', sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight: 700;
     font-stretch: 100%;
     font-variation-settings:
-        'wght' 700,
-        'wdth' 100;
+        "wght" 700,
+        "wdth" 100;
     font-size: 2.2em;
     text-align: center;
     margin-bottom: 1em;
 }
 
 .subheading {
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-weight: 500;
-    font-variation-settings: 'wght' 500;
+    font-variation-settings: "wght" 500;
     font-size: 1.5em;
     margin-bottom: 0.8em;
 }
 
 .italic {
-    font-family: 'Cabin', sans-serif;
+    font-family: "Cabin", sans-serif;
     font-style: italic;
     font-stretch: 85%; /* Slightly condensed */
     font-variation-settings:
-        'wght' 300,
-        'wdth' 85;
+        "wght" 300,
+        "wdth" 85;
     font-size: 1em;
     color: #666;
 }
 
 .callout {
-    font-family: 'TitanOne', sans-serif;
+    font-family: "TitanOne", sans-serif;
     font-weight: 600;
-    color: #f6a623;
+    color: #4990e2;
 }
 
 body,
 p {
-    font-family: 'Cabin', sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 1em;
     line-height: 1.6;
     color: #333;
@@ -95,7 +95,7 @@ h4 {
 
 h3 {
     font-size: 1.3em;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     font-weight: 600;
     font-size: 1.3em;
     color: #4990e2;
@@ -170,7 +170,7 @@ li {
 }
 
 li:before {
-    content: '->';
+    content: "->";
     position: absolute;
     left: 0;
     color: #f6a623;
@@ -291,13 +291,6 @@ li:before {
     background-color: #e09415;
 }
 
-.callout-text {
-    font-size: 1.3em;
-    text-align: center;
-    color: #4990e2;
-    margin: 1.5em 0;
-}
-
 /* Coffee Cup Animation Styles */
 .placeholder-container {
     height: 150px;
@@ -310,7 +303,7 @@ li:before {
 
 .brewing-text {
     margin-top: 1em;
-    font-family: 'Cabin', sans-serif;
+    font-family: "Cabin", sans-serif;
     font-style: italic;
     color: #5c5346;
 }
@@ -334,7 +327,7 @@ li:before {
 }
 
 .coffee-mug:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     height: 30px;

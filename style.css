@@ -16,6 +16,10 @@ html body {
     text-align: center;
 }
 
+.content .headline {
+    color: #333;
+}
+
 .subheading {
     font-family: "Dosis", sans-serif;
     font-weight: 500;
@@ -106,13 +110,18 @@ h3 {
 
 .hero-section {
     background-color: #4990e2;
+    padding: 2em 1em;
+}
+
+.hero-section .headline {
+    color: white;
 }
 
 .approach-section {
     background-color: #f6a623;
 }
 
-main section:nth-child(odd) .headline {
+.approach-section .headline {
     color: white;
 }
 
@@ -214,10 +223,6 @@ li:before {
         width: 90%;
         max-width: 300px;
     }
-}
-
-.hero-section {
-    padding: 2em 1em;
 }
 
 .hero-section p {

@@ -104,8 +104,12 @@ h3 {
     color: #4990e2;
 }
 
-main section:nth-child(odd) {
+.hero-section {
     background-color: #4990e2;
+}
+
+.approach-section {
+    background-color: #f6a623;
 }
 
 main section:nth-child(odd) .headline {
